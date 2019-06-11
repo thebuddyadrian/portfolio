@@ -1,7 +1,83 @@
-body {
-  background: cornflowerblue;
+html {
+  font-family:Cambria;
+  background-image:url("https://cdn.wallpapersafari.com/22/97/qJvG2k.jpg")
 }
 
-h1{
-  color: yellow;
+nav {
+  text-align:center;
+  font-size:35px;
+  color:white;
+  text-decoration:none;
+  margin-bottom:25px;
+  background-color:gray;
+}
+
+body {
+}
+
+h2 {
+  text-decoration:underline overline;
+  color:#00507c;
+  font-size: 40px;
+  margin-top:20px;
+  margin-bottom:0px;
+  text-align:center;
+  text-transform:uppercase;
+}
+
+p, ul, label {
+  font-size:20px;
+}
+
+.title {
+  font-style: italic;
+}
+
+.center {
+  text-align:center;
+}
+
+.gallery {
+  max-height:200px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:0px;
+  margin-bottom:0px;
+  text-align:center;
+  border:solid 1px black;
+}
+
+.transparent {
+  opacity:0.7;
+}
+
+#art-projects li{
+  font-style:italic;
+  font-size:30px;
+}
+
+#name {
+  text-align: center;
+  font-family:Calibri;
+  font-size:75px;
+  border: 5px solid black;
+  color:#00507c;
+  margin:0px;
+  padding:5px;
+}
+
+#about-me {
+  text-align:center;
+  font-style:italic;
+  margin:10px;
+  font-size:18px
+}
+
+#politicalart-title {
+  color:#00507c;
+  text-align:center;
+  font-size: 60px;
+  font-weight:normal;
+  margin-top:20px;
+  margin-bottom:0px;
 }
